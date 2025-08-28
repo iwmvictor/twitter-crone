@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo"><i class="fab fa-twitter"></i></div>
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i> Home</li>
+          <li><i class="fas fa-hashtag"></i> Explore</li>
+          <li><i class="far fa-bell"></i> Notifications</li>
+          <li><i class="far fa-envelope"></i> Messages</li>
+          <li><i class="far fa-bookmark"></i> Bookmarks</li>
+          <li><i class="fas fa-user"></i> Profile</li>
+        </ul>
+      </nav>
+      <button class="tweet-btn">Tweet</button>
+    </aside>
+
+    <!-- Main Feed -->
+    <main class="feed">
+      <div class="tweet-box">
+        <img src="profile.jpg" alt="Profile" class="avatar">
+        <textarea placeholder="What's happening?"></textarea>
+        <div class="tweet-actions">
+          <button>Tweet</button>
+        </div>
+      </div>
+
+      <!-- Example Tweet -->
+      <div class="tweet">
+        <img src="profile.jpg" alt="Profile" class="avatar">
+        <div class="tweet-content">
+          <div class="tweet-header">
+            <strong>John Doe</strong> <span>@johndoe</span>
+          </div>
+          <p>This is a sample tweet in our Twitter clone UI!</p>
+          <img src="post.jpg" alt="Post image" class="post-image" />
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="right-sidebar">
+      <h3>Trends for you</h3>
+      <ul class="trends">
+        <li>#Tech</li>
+        <li>#OpenAI</li>
+        <li>#100DaysOfCode</li>
+        <li>#ReactJS</li>
+        <li>#TwitterClone</li>
+      </ul>
+    </aside>
+  </div>
+</body>
+</html>
